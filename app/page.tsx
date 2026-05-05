@@ -1,4 +1,5 @@
 "use client";
+
 import { useState, useEffect, useRef } from "react";
 
 const SYSTEM_PROMPT = `Você é um Especialista em Fisiologia do Exercício e Nutrição Esportiva. Sua missão é gerar uma rotina PERSONALIZADA e DETALHADA de treino e alimentação.
@@ -110,8 +111,6 @@ const Tag = ({ children, color }) => (
     fontFamily: "'Space Mono', monospace", fontWeight: "600"
   }}>{children}</span>
 );
-
-"use client";
 
 export default function FitIn() {
   const [step, setStep] = useState("form");
