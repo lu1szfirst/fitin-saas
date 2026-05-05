@@ -1,3 +1,4 @@
+"use client";
 import { useState, useEffect, useRef } from "react";
 
 const SYSTEM_PROMPT = `Você é um Especialista em Fisiologia do Exercício e Nutrição Esportiva. Sua missão é gerar uma rotina PERSONALIZADA e DETALHADA de treino e alimentação.
